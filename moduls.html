@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>4 Modul Panel</title>
+
+<style>
+.download-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 16px;
+    background: linear-gradient(45deg, #00eaff, #0077ff);
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.download-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,234,255,0.7);
+}
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        color: white;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .modules {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .module {
+        background: rgba(255,255,255,0.08);
+        border-radius: 15px;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+        transition: 0.3s;
+    }
+
+    .module:hover {
+        transform: translateY(-5px);
+        background: rgba(255,255,255,0.15);
+    }
+
+    .module h2 {
+        margin-top: 0;
+        font-size: 20px;
+        color: #00eaff;
+    }
+
+    .module ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .module li {
+        margin: 10px 0;
+    }
+
+    .module a {
+        text-decoration: none;
+        color: white;
+        padding: 8px 12px;
+        display: block;
+        border-radius: 8px;
+        background: rgba(0,0,0,0.3);
+        transition: 0.3s;
+    }
+
+    .module a:hover {
+        background: #00eaff;
+        color: black;
+    }
+
+    .sidebar {
+        background: rgba(255,255,255,0.08);
+        border-radius: 15px;
+        padding: 20px;
+        backdrop-filter: blur(10px);
+    }
+
+    .sidebar h3 {
+        margin-top: 0;
+        color: #00eaff;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="container">
+
+    <div class="modules">
+
+        <div class="module">
+            <h2>Modul 1</h2>
+            <ul>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/2/lesson/1/type/2">Lesson 1</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/2/lesson/47/type/2">Lesson 2</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/3/lesson/2/type/2">Lesson 3</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/3/lesson/3/type/2">Lesson 4</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/3/lesson/4/type/2">Lesson 5</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/5/type/2">Lesson 6</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/6/type/2">Lesson 7</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/7/type/2">Lesson 8</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/8/type/2">Lesson 9</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/9/type/2">Lesson 10</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/10/type/2">Lesson 11</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/11/type/2">Lesson 12</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/12/type/2">Lesson 13</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/13/type/2">Lesson 14</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/14/type/2">Lesson 15</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/15/type/2">Lesson 16</a></li> 
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/16/type/2">Lesson 17</a></li> 
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/17/type/2">Lesson 18</a></li> 
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/18/type/2">Lesson 19</a></li> 
+                <li><a href="https://omp.aistudy.uz/courses/1/module/1/lesson/1/type/3">Test 1</a></li> 
+            </ul>
+        </div>
+
+        <div class="module">
+            <h2>Modul 2</h2>
+            <ul>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/19/type/2">Lesson 1</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/20/type/2">Lesson 2</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/21/type/2">Lesson 3</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/22/type/2">Lesson 4</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/23/type/2">Lesson 5</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/24/type/2">Lesson 6</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/25/type/2">Lesson 7</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/26/type/2">Lesson 8</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/27/type/2">Lesson 9</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/28/type/2">Lesson 10</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/29/type/2">Lesson 11</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/30/type/2">Lesson 12</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/2/module/4/lesson/2/type/3">Test 2</a></li> 
+
+            </ul>
+        </div>
+
+        <div class="module">
+            <h2>Modul 3</h2>
+            <ul>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/31/type/2">Lesson 1</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/32/type/2">Lesson 2</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/33/type/2">Lesson 3</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/34/type/2">Lesson 4</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/35/type/2">Lesson 5</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/36/type/2">Lesson 6</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/37/type/2">Lesson 7</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/38/type/2">Lesson 8</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/39/type/2">Lesson 9</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/3/module/5/lesson/3/type/3">Test 3</a></li> 
+            </ul>
+        </div>
+
+        <div class="module">
+            <h2>Modul 4</h2>
+            <ul>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/6/lesson/40/type/2">Lesson 1</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/6/lesson/41/type/2">Lesson 2</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/6/lesson/42/type/2">Lesson 3</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/7/lesson/43/type/2">Lesson 4</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/8/lesson/44/type/2">Lesson 5</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/8/lesson/4/type/3">Test 4</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/9/lesson/5/type/3">Yakuniy Test</a></li>
+                <li><a href="https://omp.aistudy.uz/courses/4/module/10/lesson/46/type/2">Xulosa</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="sidebar">
+        <h3>Answer</h3>
+       <div class="sidebar">
+    <h3>Test ansewers</h3>
+    <p>Click the button below to download the test file.</p>
+
+    <a href="test-javoblar.pdf" download class="download-btn">
+        📥 Download ansewers
+    </a>
+</div>
+    </div>
+
+</div>
+
+</body>
+</html>
