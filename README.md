@@ -78,7 +78,7 @@ Ushbu loyiha MIT litsenziyasi asosida tarqatiladi.
 
 Savollar yoki takliflar uchun:
 
-* Telegram: @@baxtiyorov_admin1
+* Telegram: @baxtiyorov_admin1
 
 ---
 
