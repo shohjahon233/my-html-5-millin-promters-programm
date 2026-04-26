@@ -53,9 +53,7 @@ git clone https://github.com/shohjahon233/my-html-5-millin-promters-programm.git
 ---
 
 ## 📸 Skrinshotlar
-
-
-
+<img width="1890" height="836" alt="image" src="https://github.com/user-attachments/assets/0bfb1d5b-e98e-44cf-a198-5c3d20a6f5a4" />
 ---
 
 ## 🤝 Hissa qo‘shish (Contributing)
